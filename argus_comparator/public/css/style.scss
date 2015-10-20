@@ -1,0 +1,33 @@
+.tabs dd>a, .tabs .tab-title>a{
+  background-color: #fff;
+  outline: none;
+}
+
+.tab-title.active>a:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #fff;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+li{
+  text-align: center;
+}
+
+.header{
+  font-weight: bold;
+  li ul {
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+.orbit-content{
+  background-color: darken(#fff,20);
+}
